@@ -22,7 +22,7 @@ memory leaking at  Address 0x1bc0140 Size 8 File welcome.cc Line 53
 memory leaking at  Address 0x1bc0060 Size 4 File welcome.cc Line 46  
 
 
-# Priciple
+# Trick
 
 Prepend a memory node struct including information about file ,line , size, previous node and nexe node. So we used doubly linked list
 to keep track of all the memory we allocated .  
